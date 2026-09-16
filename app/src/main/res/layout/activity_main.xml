@@ -1,19 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Mariana Alves Ferreira"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:textSize="22sp"
+        android:textColor="#1F3864"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Desenvolvimento de Sistema"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#1F3864" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="0dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20sp"
+            android:text="RM:"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"/>
+    
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:text="20250147"
+                android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Turma:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:text="2° Modulo - B"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="20sp"
+                android:layout_marginTop="16dp"
+                android:text="Periodo:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:text="Noite"
+                android:textSize="16sp" />
+            
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Mariana Alves Ferreira"
+                android:gravity="center"
+                android:layout_marginTop="24dp"
+                android:textSize="22sp"
+                android:textColor="#1F3864"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="frequencia nas aulas"
+                android:gravity=""
+                android:layout_marginTop="24dp"
+                android:textSize="22sp"
+                android:textColor="#1F3864"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Desenvolvimento de Sistema"
+                android:textSize="16sp"
+                android:gravity="left"
+                android:textColor="#1F3864" />
+            
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Ver Boletim"
+                android:textAllCaps="false"
+                android:backgroundTint="#1F3864" />
+
+            <Button
+                android:id="@+id/jjjj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Sair da conta"
+                android:textAllCaps="false"
+                android:backgroundTint="#000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+        
+        
+            
+
+
