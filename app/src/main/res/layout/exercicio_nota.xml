@@ -7,21 +7,49 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edtexec1"
-        android:hint="Digite um numero"
+        android:id="@+id/edtNota1"
+        android:hint="Digite a nota1"
         android:inputType="number"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnExec1"
-        android:text="calcular o dobro"
-        android:layout_gravity="center_horizontal"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/edtNota2"
+        android:hint="Digite a nota2"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExec5"
+        android:text="calcular a media"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="22dp"
-        android:id="@+id/txtexec1"/>
+        android:id="@+id/txtExec5"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtIdade"
+        android:hint="Digite sua idade"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExec6"
+        android:text="classificação de idade"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:id="@+id/txtExec6"/>
 
 
 
